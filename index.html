@@ -1,0 +1,66 @@
+
+<body>
+	
+	<div class="container-fluid" ng-app="StylishTimer" ng-controller="TimerControl">
+		<div class="container header">Productivity Timer </div>
+
+		
+		<p> {{alert}}</p>
+			
+			
+		<div class="row top">
+		
+			
+		</div>
+			<div class="row bottom">
+			<div class="col-sm-4">
+				<span class="set"> Timer Set(min)</span><br>
+				<button type="button" class="btn btn-info" ng-click="sessionChangeMinus('-')">-</button>
+			<span class="time">{{sessionLength}}</span>
+				<button type="button" class="btn btn-info" ng-click="sessionChangePlus('+')" >+</button>
+				</div>
+			
+			
+			<div class="col-sm-4 ">
+			
+				<span class="set"> Start/Stop</span><br>
+			<button type="button" class="btn btn-default timer" ng-click="timer()">{{timeLeft}}</button>
+			</div>
+			
+			<div class="col-sm-4">
+				<span class="set"> Break Time Set (min)</span><br>
+					<button type="button" class="btn btn-info" ng-click="breakLengthChange(-1)" >-</button>
+				<span class="time">{{breakLength}}</span>
+				<button type="button" class="btn btn-info" ng-click="breakLengthChange(1)"  >+</button>
+			</div>
+			</div>
+		
+	
+	
+		
+		<div class="container background">
+			<div class="col-md-4"></div>
+			<div class="col-md-4">	
+		<center>	<img class="img-responsive" src="http://clipartsign.com/upload/2016/05/18/hourglass-clipart.jpg"></center>
+		
+			<div class="center"> <b> KEEP </b> <br> <b>CALM</b> <br> <small> AND </small> <br> <b>STAY</b> <br> <b>PRODUCTIVE</b></div></div>
+			
+			<div class="col-md-4"></div>
+		</div>
+
+	
+	
+	</div>
+
+
+		
+		</body>
+
+
+	
+	
+
+	
+
+	
+	
