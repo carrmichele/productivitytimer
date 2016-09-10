@@ -7,10 +7,9 @@ Build a front-end JavaScript app that is capable of performing calculations.
 
 ### User stories: 
 
-  - User can add, subtract, multiply and divide two numbers.
-  - User can clear the input field with a clear button.
-  - User can keep chaining mathematical operations together until I hit the equal button, and the calculator will tell me the correct output.
-  - As an unauthenticated user, when I login I should not have to search again.
+  - User can start a 25 minute pomodoro, and the timer will go off once 25 minutes has elapsed.
+  - User can reset the clock for my next pomodoro.
+  - User can customize the length of each pomodoro.
 
 ### Live Version:
 http://codepen.io/caromichel/full/beqvGR
@@ -19,5 +18,4 @@ http://codepen.io/caromichel/full/beqvGR
 - Angular JS
 - SCSS
 - HTML5 
-- Pug 
 
