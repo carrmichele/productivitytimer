@@ -13,7 +13,7 @@ Build a front-end JavaScript app that is capable of performing calculations.
   - As an unauthenticated user, when I login I should not have to search again.
 
 ### Live Version:
-https://codepen.io/caromichel/full/BzVpjp
+http://codepen.io/caromichel/full/beqvGR
 
 ### Requirements:
 - Angular JS
